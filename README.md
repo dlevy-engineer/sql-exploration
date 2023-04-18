@@ -49,7 +49,7 @@ To create a database in pgAdmin, follow these steps:
     | Tucson | Arizona | 535677 |
     | Garland | Texas | 238002 |
 
-    - Corresponding script is title `03-insert_values.sql`. Full-table verification query is provided in `04-query_all_records` results are provided in `04-query_all_records_results.csv`.
+    - Corresponding script is title `03-insert_values.sql`. Full-table verification query is provided in `03-query_all_records` results are provided in `03-query_all_records_results.csv`.
     
 4. Query the table to recreate the image below.
 
