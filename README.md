@@ -49,7 +49,7 @@ To create a database in pgAdmin, follow these steps:
     | Tucson | Arizona | 535677 |
     | Garland | Texas | 238002 |
 
-    - Corresponding script is title `03-insert_values.sql`. Full-table verification query is provided in `03-query_all_records` results are provided in `03-query_all_records_results.csv`.
+    - Corresponding script is titled `03-insert_values.sql`. Full-table verification query is provided in `03-query_all_records` results are provided in `03-query_all_records_results.csv`.
     
 4. Query the table to recreate the image below.
 
@@ -63,11 +63,16 @@ To create a database in pgAdmin, follow these steps:
     | Anaheim |
     | Tucson |
     | Garland |
-        
+
+    - Corresponding script is titled `04-city_query.sql`. Results are provided in `04-city_query_results.csv`.
+    
 ### Additional Exploration
 1. Filter the table to view only cities in Arizona.
+    - Corresponding script is titled `ae-01-arizona_query.sql`. Results are provided in `ae-01-arizona_query_results.csv`.
 2. Filter the table to view only cities with a population of less than 100,000.
+    - Corresponding script is titled `ae-02-small_cities_query.sql`. Results are provided in `ae-02-small_cities_query_results.csv`.
 3. Filter the table to view California cities with a population of less than 100,000.
+    - Corresponding script is titled `ae-03-small_cities_california_query.sql`. Results are provided in `ae-03-small_cities_california_query_results.csv`.
 
 #### Notes
 * The first and second `Additional Exploration` tasks use a [`WHERE` clause](https://www.tutorialspoint.com/sql/sql-where-clause.htm) to filter the original query.
