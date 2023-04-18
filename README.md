@@ -10,23 +10,33 @@ To create a database in pgAdmin, follow these steps:
 2. From the menu, hover `Create` to instantiate a new database.
 3. Enter `animals_db` as the database name. Make sure the owner is set as the default `postgres`, and then click Save.
 
-
 ### Create a Table
 - `01-create_tables.sql` contains a sample table creation script with several different data types.
 
-
 ### Insert Values
 - `02-insert_values.sql` contains a sample record insertion script that demonstrates basic data entry.
-
 
 ### Query All Records
 - `03-query_all_records.sql` contains the most basic full-table query script.
 - `03-query_all_records_results.csv` shows the query results.
 
-
 ### Filtered Query
 - `04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
 - `04-filtered_query_results.csv` shows the query results.
+
+### Delete, Recreate and Populate Tables
+- `05-delete_create_tables_with_primary_keys.sql` contains a script that demonstrates how to drop a table, recreate it with a sequential primary key, and populate it.
+- `05-query_all_with_primary_key_results.csv` shows the results of those actions.
+
+### Updating, Deleting and Bulk Importing Data
+- `06-dave_query.sql` contains a filtered query script.
+- `06-dave_query_results.csv` contains the results of that query.
+- `07-update_record.sql` contains a script that demonstrates how to update records that meet particular criteria.
+- `07-update_record_query_results.csv` conains the results of a query meant to visualize the effects of the above.
+- `08-drop_duplicate.sql` demonstrates deleting a record based on a unique ID.
+- `08-drop_duplicate_query_results.csv` conains the results of a query meant to visualize the effects of the above.
+- `09-create_table_fauna_vertebrate.sql` creates a new, unpopulated table.
+- `10-insert_values_fauna_vertebrate.sql` populates the new table.
 ---
 
 ## `02-city_info`
