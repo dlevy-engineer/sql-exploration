@@ -113,4 +113,4 @@ To create a database in pgAdmin, follow these steps:
 
 ## Additional Exploration
 1. Create a Boolean column named `expert` that has a default value of `true` in the `programming_languages` table.
-    - Corresponding script is titled `01-create_new_column.sql`.
+    - Corresponding script is titled `ae-01-create_new_column.sql`.
