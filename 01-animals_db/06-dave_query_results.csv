@@ -1,0 +1,3 @@
+"id","name","has_pet","pet_type","pet_name","pet_age"
+5,"Dave",True,"dog","Queso",1
+6,"Dave",True,"dog","Pringles",7

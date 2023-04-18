@@ -1,0 +1,6 @@
+"id","name","has_pet","pet_type","pet_name","pet_age"
+1,"Jacob",True,"dog","Misty",10
+2,"Ahmed",True,"rock","Rockington",100
+4,"Peter",True,"cat","Franklin",2
+5,"Dave",True,"dog","Queso",1
+6,"Dave",True,"dog","Shadowfax",8
