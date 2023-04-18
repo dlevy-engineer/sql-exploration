@@ -33,6 +33,7 @@ To create a database in pgAdmin, follow these steps:
 
 ### Procedure
 1. Create a new database in pgAdmin named `city_info`.
+    - Corresponding script is titled `01-create_database.sql`.
 2. Using the query tool, create an empty table named `cities`. Be sure to match the data types!
 3. Insert data into the new table. The result should match the following image.
 
@@ -48,6 +49,7 @@ To create a database in pgAdmin, follow these steps:
     | Garland | Texas | 238002 |
     
 4. Query the table to recreate the image below.
+
     ![cities_only.png](images/cities_only.png)
     
     | city<br>character varying (30) |
