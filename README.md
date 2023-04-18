@@ -80,14 +80,15 @@ To create a database in pgAdmin, follow these steps:
 ---
 
 ## `03-programming_db`
-In this activity, you will recreate a table and then query, insert, and update data.
 
 ### Procedure
 1. Create a new database named `programming_db`.
-2. Recreate the `programming_languages` table using the following image.
+    - Corresponding script is titled `01-create_database.sql`.
+
+2. Create the `programming_languages` table using the following image.
 
     ![programming_languages.png](images/programming_languages.png)
-    
+
     | id<br>integer | language<br>character varying (20) | rating<br>integer |
     |----|----|----|
     | 1 | HTML | 95 |
@@ -96,10 +97,20 @@ In this activity, you will recreate a table and then query, insert, and update d
     | 4 | MySQL | 70 |
     | 5 | MySQL | 70 |
 
+    - Corresponding script is titled `02-create_tables.sql`.
+
 3. Query the table to return the rows containing MySQL, and then delete one of the duplicates.
+    - Corresponding script is titled `03-mysql_query_and_cleaning.sql`. Query results can be found in `03-mysql_query_and_cleaning_results.csv`.
+
 4. Insert a few more rows of data for additional programming languages by adding the `language` and `rating` of your choice to the `programming_languages` table.
+    - Corresponding script is titled `04-insert_records.sql`.
+
 5. Change the name of the JS language to JavaScript.
+    - Corresponding script is titled `05-find_and_replace.sql`.
+
 6. Change the rating for HTML to 90.
+    - Corresponding script is titled `06-single_record_change.sql`.
 
 ## Additional Exploration
 1. Create a Boolean column named `expert` that has a default value of `true` in the `programming_languages` table.
+    - Corresponding script is titled `01-create_new_column.sql`.
