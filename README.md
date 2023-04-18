@@ -27,7 +27,7 @@ To create a database in pgAdmin, follow these steps:
 ### Filtered Query
 - `04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
 - `04-filtered_query_results.csv` shows the query results.
-
+---
 
 ## `02-city_info`
 
@@ -77,3 +77,29 @@ To create a database in pgAdmin, follow these steps:
 #### Notes
 * The first and second `Additional Exploration` tasks use a [`WHERE` clause](https://www.tutorialspoint.com/sql/sql-where-clause.htm) to filter the original query.
 * The third `Additional Exploration` task uses an [`AND` clause](https://www.tutorialspoint.com/sql/sql-and-or-clauses.htm).
+---
+
+## `03-programming_db`
+In this activity, you will recreate a table and then query, insert, and update data.
+
+### Procedure
+1. Create a new database named `programming_db`.
+2. Recreate the `programming_languages` table using the following image.
+
+    ![programming_languages.png](images/programming_languages.png)
+    
+    | id<br>integer | language<br>character varying (20) | rating<br>integer |
+    |----|----|----|
+    | 1 | HTML | 95 |
+    | 2 | JS | 99 |
+    | 3 | JQuery | 98 |
+    | 4 | MySQL | 70 |
+    | 5 | MySQL | 70 |
+
+3. Query the table to return the rows containing MySQL, and then delete one of the duplicates.
+4. Insert a few more rows of data for additional programming languages by adding the `language` and `rating` of your choice to the `programming_languages` table.
+5. Change the name of the JS language to JavaScript.
+6. Change the rating for HTML to 90.
+
+## Additional Exploration
+1. Create a Boolean column named `expert` that has a default value of `true` in the `programming_languages` table.
