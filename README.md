@@ -46,7 +46,7 @@ A collection of exploratory exercises to improve SQL skills.
 
     3. Insert data into the new table. The result should match the following image.
 
-        ![cities_table.png](sql-exploration/images/cities_table.png)
+        ![cities_table.png](/sql-exploration/images/cities_table.png)
 
         | city<br>character varying (30) | state<br>character varying (30) | population<br>integer |
         |----|----|----|
