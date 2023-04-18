@@ -129,9 +129,9 @@ To create a database in pgAdmin, follow these steps:
 ## `04-miscellaneous_db`
 
 ### Procedure
-1. Open the `soft-attributes.csv` CSV file from the Resources folder to analyze the data.
+1. Open the `soft-attributes.csv` CSV file from the `resources` folder to analyze the data.
 2. Using the column headers and data types from the CSV file, write the table schema to create a new table in the `miscellaneous_db` database called `movie_words_comparison`.
-3. Import the data from the `soft-attributes.csv` file in the Resources folder.
+3. Import the data from the `soft-attributes.csv` file in the `resources` folder.
 4. Create a query that collects all rows where `Home Alone (1990)` is in the `reference_title` column.
 5. Create a query that collects all rows where the rater is within the 10-15 range.
 6. Create a query that searches for the words `artsy` and `heartfelt` in the `soft_attribute` column.
