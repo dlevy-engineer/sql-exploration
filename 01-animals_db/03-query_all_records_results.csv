@@ -1,0 +1,7 @@
+"name","has_pet","pet_type","pet_name","pet_age"
+"Heidi",True,"cat","Napoleon",4
+"Jakob",True,"turtle","Monch",85
+"Matt",True,"raccoon","Piper",6
+"Holly",False,"","",NULL
+"Kat",True,"dog","Bernie",2
+"Jamie",True,"dog","Twelve",8
