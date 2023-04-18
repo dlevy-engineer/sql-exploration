@@ -97,20 +97,20 @@ To create a database in pgAdmin, follow these steps:
     | 4 | MySQL | 70 |
     | 5 | MySQL | 70 |
 
-    - Corresponding script is titled `02-create_tables.sql`.
+    - Corresponding script is titled `02-create_tables.sql`. A verification results file can be found under the name `02-create_tables_full_query_results.csv`.
 
 3. Query the table to return the rows containing MySQL, and then delete one of the duplicates.
     - Corresponding script is titled `03-mysql_query_and_cleaning.sql`. Query results can be found in `03-mysql_query_and_cleaning_results.csv`.
 
 4. Insert a few more rows of data for additional programming languages by adding the `language` and `rating` of your choice to the `programming_languages` table.
-    - Corresponding script is titled `04-insert_records.sql`.
+    - Corresponding script is titled `04-insert_records.sql`. A verification results file can be found under the name `04-insert_records_full_query_results.csv`.
 
 5. Change the name of the JS language to JavaScript.
-    - Corresponding script is titled `05-find_and_replace.sql`.
+    - Corresponding script is titled `05-find_and_replace.sql`. A verification results file can be found under the name `05-find_and_replace_full_query_results.csv`.
 
 6. Change the rating for HTML to 90.
-    - Corresponding script is titled `06-single_record_change.sql`.
+    - Corresponding script is titled `06-single_record_change.sql`. A verification results file can be found under the name `06-single_record_change_full_query_results.csv`.
 
 ## Additional Exploration
 1. Create a Boolean column named `expert` that has a default value of `true` in the `programming_languages` table.
-    - Corresponding script is titled `ae-01-create_new_column.sql`.
+    - Corresponding script is titled `ae-01-create_new_column.sql`. A verification results file can be found under the name `ae-01-create_new_column_full_query_results.csv`.
