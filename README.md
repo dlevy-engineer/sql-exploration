@@ -36,9 +36,9 @@ A collection of exploratory exercises to improve SQL skills.
     `04-filtered_query_results.csv` shows the query results.
 
 
-2. The `02-city_info` directory contains exercises that further demonstrate basic PostgreSQL functionality.
+## `02-city_info`
 
-    ## Instructions
+### Procedure
 
     1. Create a new database in pgAdmin named `city_info`.
 
@@ -46,7 +46,7 @@ A collection of exploratory exercises to improve SQL skills.
 
     3. Insert data into the new table. The result should match the following image.
 
-        ![cities_table.png](Images/cities_table.png)
+        ![cities_table.png](images/cities_table.png)
 
         | city<br>character varying (30) | state<br>character varying (30) | population<br>integer |
         |----|----|----|
@@ -59,7 +59,7 @@ A collection of exploratory exercises to improve SQL skills.
 
     4. Query the table to recreate the image below.
 
-        ![cities_only.png](Images/cities_only.png)
+        ![cities_only.png](images/cities_only.png)
 
         | city<br>character varying (30) |
         |----|
@@ -69,8 +69,8 @@ A collection of exploratory exercises to improve SQL skills.
         | Anaheim |
         | Tucson |
         | Garland |
-
-    ## Bonus
+        
+### Bonus
 
     1. Filter the table to view only cities in Arizona.
 
