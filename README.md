@@ -31,8 +31,8 @@ A collection of exploratory exercises to improve SQL skills.
 
 
 ### Filtered Query
-`04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
-`04-filtered_query_results.csv` shows the query results.
+- `04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
+- `04-filtered_query_results.csv` shows the query results.
 
 
 ## `02-city_info`
