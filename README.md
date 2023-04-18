@@ -35,6 +35,7 @@ To create a database in pgAdmin, follow these steps:
 1. Create a new database in pgAdmin named `city_info`.
     - Corresponding script is titled `01-create_database.sql`.
 2. Using the query tool, create an empty table named `cities`. Be sure to match the data types!
+    - Corresponding script is titled `02-create_tables.sql`.
 3. Insert data into the new table. The result should match the following image.
 
     ![cities_table.png](images/cities_table.png)
@@ -47,6 +48,8 @@ To create a database in pgAdmin, follow these steps:
     | Anaheim | California | 352497 |
     | Tucson | Arizona | 535677 |
     | Garland | Texas | 238002 |
+
+    - Corresponding script is title `03-insert_values.sql`. Full-table verification query is provided in `04-query_all_records` results are provided in `04-query_all_records_results.csv`.
     
 4. Query the table to recreate the image below.
 
