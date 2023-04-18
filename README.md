@@ -64,11 +64,11 @@ To create a database in pgAdmin, follow these steps:
     | Tucson |
     | Garland |
         
-### Bonus
+### Additional Exploration
 1. Filter the table to view only cities in Arizona.
 2. Filter the table to view only cities with a population of less than 100,000.
 3. Filter the table to view California cities with a population of less than 100,000.
 
-### Hints
-* For the second bonus question, you will need to use a [`WHERE` clause](https://www.tutorialspoint.com/sql/sql-where-clause.htm) to filter the original query.
-* For the third bonus question, an [`AND` clause](https://www.tutorialspoint.com/sql/sql-and-or-clauses.htm) will also be necessary.
+#### Notes
+* The first and second `Additional Exploration` tasks use a [`WHERE` clause](https://www.tutorialspoint.com/sql/sql-where-clause.htm) to filter the original query.
+* The third `Additional Exploration` task uses an [`AND` clause](https://www.tutorialspoint.com/sql/sql-and-or-clauses.htm).
