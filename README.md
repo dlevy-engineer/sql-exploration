@@ -31,9 +31,8 @@ A collection of exploratory exercises to improve SQL skills.
 
 
 ### Filtered Query
-
-    `04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
-    `04-filtered_query_results.csv` shows the query results.
+`04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
+`04-filtered_query_results.csv` shows the query results.
 
 
 ## `02-city_info`
@@ -45,10 +44,10 @@ A collection of exploratory exercises to improve SQL skills.
     2. Using the query tool, create an empty table named `cities`. Be sure to match the data types!
 
     3. Insert data into the new table. The result should match the following image.
-
+    
         ![cities_table.png](/sql-exploration/images/cities_table.png)
-
-        | city<br>character varying (30) | state<br>character varying (30) | population<br>integer |
+        
+        city<br>character varying (30) | state<br>character varying (30) | population<br>integer |
         |----|----|----|
         | Alameda | California | 79177 |
         | Mesa | Arizona | 496401 |
