@@ -3,7 +3,7 @@ A collection of exploratory exercises to improve SQL skills.
 
 ## `01-animals_db`
 
-    ### Create a Database
+### Create a Database
 
     To create a database in pgAdmin, follow these steps:
 
@@ -14,23 +14,23 @@ A collection of exploratory exercises to improve SQL skills.
     3 – Enter `animals_db` as the database name. Make sure the owner is set as the default `postgres`, and then click Save.
 
 
-    ### Create a Table
+### Create a Table
 
     `01-create_tables.sql` contains a sample table creation script with several different data types.
 
 
-    ### Insert Values
+### Insert Values
 
     `02-insert_values.sql` contains a sample record insertion script that demonstrates basic data entry.
 
 
-    ### Query All Records
+### Query All Records
 
     `03-query_all_records.sql` contains the most basic full-table query script.
     `03-query_all_records_results.csv` shows the query results.
 
 
-    ### Filtered Query
+### Filtered Query
 
     `04-filtered_query.sql` contains a query script that retrieves only some fields from records that meet several criteria.
     `04-filtered_query_results.csv` shows the query results.
