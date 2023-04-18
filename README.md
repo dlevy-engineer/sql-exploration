@@ -35,6 +35,7 @@ To create a database in pgAdmin, follow these steps:
 1. Create a new database in pgAdmin named `city_info`.
 2. Using the query tool, create an empty table named `cities`. Be sure to match the data types!
 3. Insert data into the new table. The result should match the following image.
+
     ![cities_table.png](images/cities_table.png)
     
     city<br>character varying (30) | state<br>character varying (30) | population<br>integer |
