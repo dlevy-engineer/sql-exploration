@@ -130,18 +130,23 @@ To create a database in pgAdmin, follow these steps:
 
 ### Procedure
 1. Open the `soft-attributes.csv` CSV file from the `resources` folder to analyze the data.
+    - The `miscellaneous_db` database was created with the script saved in the `01-create_database.sql` file.
 2. Using the column headers and data types from the CSV file, write the table schema to create a new table in the `miscellaneous_db` database called `movie_words_comparison`.
+    - Corresponding script is titled `02-create_tables.sql`. A verification results file can be found under the name `06-single_record_change_full_query_results.csv`.
 3. Import the data from the `soft-attributes.csv` file in the `resources` folder.
+    - Data was imported from the `/resources/aoft-attributes.csv` file using the pgAdmin4 import client, but a working import script is included under the name `03-import_soft_attributes.sql`.
 4. Create a query that collects all rows where `Home Alone (1990)` is in the `reference_title` column.
+    - Corresponding script is titled `04-home_alone_query.sql`. A verification results file can be found under the name `04-home_alone_query_results.csv`.
 5. Create a query that collects all rows where the rater is within the 10-15 range.
+    - Corresponding script is titled `05-raters_10_to_15_query.sql`. A verification results file can be found under the name `05-raters_10_to_15_query_results.csv`.
 6. Create a query that searches for the words `artsy` and `heartfelt` in the `soft_attribute` column.
+    - Corresponding script is titled `06-heartfelt_artsy_query.sql`. A verification results file can be found under the name `06-heartfelt_artsy_query_results.csv`.
 
 ### Additional Exploration
 1. Create a query that will collect all rows with a reference title of `Batman (1989)` and a soft attribute of `scary`.
+    - Corresponding script is titled `ae-01-scary_batman_query.sql`. A verification results file can be found under the name `ae-01-scary_batman_query_results.csv`.
 2. Create a query that will collect all rows with a rater within the 30-40 range and has a reference title of `Home Alone (1990)` and a soft attribute of `artsy`.
-
-#### References
-Krisztian Balog, Filip Radlinski and Alexandros Karatzoglou from Google LLC (2021). SoftAttributes: Relative movie attribute dataset for soft attributes. [https://github.com/google-research-datasets/soft-attributes](https://github.com/google-research-datasets/soft-attributes).
+    - Corresponding script is titled `ae-02-raters_30_to_40_artsy_home_alone_query.sql`. A verification results file can be found under the name `ae-02-raters_30_to_40_artsy_home_alone_query_results.csv`.
 ---
 
 ## 05-CRUD
