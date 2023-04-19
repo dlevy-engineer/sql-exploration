@@ -150,9 +150,9 @@ To create a database in pgAdmin, follow these steps:
 ---
 
 ## 05-CRUD
-An exploration of CRUD operations (Create, Read, Update, Delete) on the provided data.
+An exploration of CRUD operations (Create, Read, Update, Delete) on data provided by Berkeley Data Science Bootcamp.
 
-### Proceduret
+### Procedure
 1. Create a new database named `Malaysia` in pgAdmin.
 2. Create two new tables in the `Malaysia` database by copying the code provided in `schema.sql` into a new query window in pgAdmin.
 3. Using the Import/Export tool, import the data from `mys_road_accidents.csv` into the `road_accidents` table, and then import the data from `mys_accidents_by_state.csv` into the `accidents_by_state` table.
@@ -224,8 +224,3 @@ In this activity, you will be using joins to learn more about North American bir
   | 12 | B08623850863 | 2/12/75 | Least Flycatcher | aluminum\butt end | Normal wild bird. | After Hatching Year | Female |
 
   * **Note:** You will need to include a `WHERE` clause on sex_description.
-
-## Reference
-
-Celis-Murillo, A., Malorodova, M., and Nakash, E., 2020, North American Bird Banding Program Dataset 1960-2020 retrieved 2020-06-26: U.S. Geological Survey data release, [https://doi.org/10.5066/P9R1L6Q7](https://doi.org/10.5066/P9R1L6Q7).
-Specifically files NABBP_2020_grp_06.csv [reduced in pandas to locations outside of the US and Canada] and NABBP_Lookups_2020.zip
