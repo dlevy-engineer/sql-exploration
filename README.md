@@ -174,17 +174,15 @@ You will be able to calculate this missing data from the second table.
 ### Additional Exploration
 1. Delete all rows from `accidents_by_state` and re-import the data from `mys_accidents_by_state.csv`. If you import the data again without deleting the rows, you will have duplicated data.
 2. Without deleting any rows, calculate the sum of `road_crashes`, `road_deaths`, `serious_injury`, and `slight_injury` for a subsequent year, and add those values plus the year to the `road_accidents` table.
-
-**Note**: We need to include a value for `_id` as it has been designated the Primary Key and cannot be null, nor can it be a duplicate value of `_id`.
 ---
 
-# Joining Bird Bands
+## `06-bird_banding_db`
 
 When information could unintentionally be duplicated, data is often stored in separate tables with reference to an `id`. In the case of the dataset you will explore, most of the unique identifiers are labeled with the word `code`.
 
 In this activity, you will be using joins to learn more about North American bird banding. The example contains data reduced from its original source, so if you would like to explore the data further, click the link in the Reference section.
 
-## Instructions
+### Procedure
 
 * Create a new database named `bird_banding_DB`, and create eight new tables with pgAdmin named `bird_bands`, `age`, `band_type`, `bird_status`, `country_state`, `event_type`, `extra_info` and `sex`.
 
@@ -225,5 +223,3 @@ In this activity, you will be using joins to learn more about North American bir
   | 10 | B07514549034 | 3/29/11 | Tropical Kingbird | aluminum\butt-end (toll-free /web address) | Normal wild bird. | After Second Year | Male |
   | 11 | B08623850540 | 1/11/75 | Yellow-bellied Flycatcher | aluminum\butt end | Normal wild bird. | Second Year | Male |
   | 12 | B08623850863 | 2/12/75 | Least Flycatcher | aluminum\butt end | Normal wild bird. | After Hatching Year | Female |
-
-  * **Note:** You will need to include a `WHERE` clause on sex_description.
