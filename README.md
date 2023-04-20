@@ -168,7 +168,7 @@ In this activity, you will be using joins to learn more about North American bir
 ### Procedure
 1. Create a new database named `bird_banding_DB`, and create eight new tables with pgAdmin named `bird_bands`, `age`, `band_type`, `bird_status`, `country_state`, `event_type`, `extra_info` and `sex`.
 2. Perform joins that will generate the following outputs:
-    * Basic Information Table:
+* Basic Information Table:
     | | band<br>character varying | event_date<br>character varying | species_name<br>character varying | age_description<br>character varying | sex_description<br>character varying |
     |----|----|----|----|----|----|
     | 1 | B06814289038 | 5/22/02 | Warbling Vireo | After Hatching Year | Unknown |
