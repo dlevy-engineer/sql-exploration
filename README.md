@@ -156,7 +156,7 @@ An exploration of the five primary types of joins that can be used with PostgreS
 
 1. Create a database called `commodities_db` with two tables, `names` and `commodity`. Then populate the tables with data from the `.csv` files provided in the `resources` directory.
 2. Perform an `INNER JOIN` on the two tables.
-3. Perform the same operation, using `AS` to shorten the table names.
+3. Perform the same operation, using aliases.
 
 ---
 
