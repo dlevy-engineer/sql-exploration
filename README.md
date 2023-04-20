@@ -176,15 +176,27 @@ You will be able to calculate this missing data from the second table.
 2. Without deleting any rows, calculate the sum of `road_crashes`, `road_deaths`, `serious_injury`, and `slight_injury` for a subsequent year, and add those values plus the year to the `road_accidents` table.
 ---
 
-## `06-bird_banding_db`
+## `06-commodities_db`
+An exploration of the five primary types of joins that can be used with PostgreSQL:
+* `INNER JOIN` returns records that have matching values in both tables.
+* `LEFT JOIN` returns all records from the left table and the matched records from the right table.'
+* `RIGHT JOIN` returns all records from the right table and the matched records from the left table.
+* `CROSS JOIN` returns records that match every row of the left table with every row of the right table. This type of join has the potential to make very large tables.
+* `FULL OUTER JOIN` places null values within the columns that do not match between the two tables, after an inner join is performed.
 
+1. Create a database called `commodities_db` with two tables, `names` and `commodity`. Then populate the tables with data from the `.csv` files provided in the `resources` directory.
+2. Perform an `INNER JOIN` on the two tables.
+3. Perform the same operation, using `AS` to shorten the table names.
+
+---
+
+## `07-bird_banding_db`
 When information could unintentionally be duplicated, data is often stored in separate tables with reference to an `id`. In the case of the dataset you will explore, most of the unique identifiers are labeled with the word `code`.
 
 In this activity, you will be using joins to learn more about North American bird banding. The example contains data reduced from its original source, so if you would like to explore the data further, click the link in the Reference section.
 
 ### Procedure
-
-* Create a new database named `bird_banding_DB`, and create eight new tables with pgAdmin named `bird_bands`, `age`, `band_type`, `bird_status`, `country_state`, `event_type`, `extra_info` and `sex`.
+1. Create a new database named `bird_banding_DB`, and create eight new tables with pgAdmin named `bird_bands`, `age`, `band_type`, `bird_status`, `country_state`, `event_type`, `extra_info` and `sex`.
 
 * Copy the code from `schema.sql` to create the tables, and then import the corresponding data from the CSV files with the same names. **Note:** Remember to refresh the database. Newly created tables will not immediately appear.
 
