@@ -161,9 +161,7 @@ An exploration of the five primary types of joins that can be used with PostgreS
 ---
 
 ## `07-bird_banding_db`
-When information could unintentionally be duplicated, data is often stored in separate tables with reference to an `id`. In the case of the dataset you will explore, most of the unique identifiers are labeled with the word `code`.
-
-In this activity, you will be using joins to learn more about North American bird banding. The example contains data reduced from its original source, so if you would like to explore the data further, click the link in the Reference section.
+When information could unintentionally be duplicated, data is often stored in separate tables with reference to an `id`. In this dataset, most of the unique identifiers are labeled `code`. This activity uses various joins to uncover more about North American bird banding. 
 
 ### Procedure
 1. Create a new database named `bird_banding_DB`, and create eight new tables with pgAdmin named `bird_bands`, `age`, `band_type`, `bird_status`, `country_state`, `event_type`, `extra_info` and `sex`.
