@@ -7,7 +7,9 @@ A collection of exploratory exercises to improve SQL skills.
 To create a database in pgAdmin, follow these steps:
 
 1. In the pgAdmin editor, right-click `PostgreSQL 15` on the left-hand side panel.
+
 2. From the menu, hover `Create` to instantiate a new database.
+
 3. Enter `animals_db` as the database name. Make sure the owner is set as the default `postgres`, and then click Save.
 
 ### Create a Table
@@ -72,7 +74,9 @@ To create a database in pgAdmin, follow these steps:
     
 ### Additional Exploration
 1. Filter the table to view only cities in Arizona.
+
 2. Filter the table to view only cities with a population of less than 100,000.
+
 3. Filter the table to view California cities with a population of less than 100,000.
 
 #### Notes
@@ -84,6 +88,7 @@ To create a database in pgAdmin, follow these steps:
 
 ### Procedure
 1. Create a new database named `programming_db`.
+
 2. Create the `programming_languages` table using the following image.
 
     ![programming_languages.png](images/programming_languages.png)
@@ -97,8 +102,11 @@ To create a database in pgAdmin, follow these steps:
     | 5 | MySQL | 70 |
 
 3. Query the table to return the rows containing MySQL, and then delete one of the duplicates.
+
 4. Insert a few more rows of data for additional programming languages by adding the `language` and `rating` of your choice to the `programming_languages` table.
+
 5. Change the name of the JS language to JavaScript.
+
 6. Change the rating for HTML to 90.
 
 ## Additional Exploration
@@ -109,10 +117,15 @@ To create a database in pgAdmin, follow these steps:
 
 ### Procedure
 1. Open the `soft-attributes.csv` CSV file from the `resources` folder to analyze the data.
+
 2. Using the column headers and data types from the CSV file, write the table schema to create a new table in the `miscellaneous_db` database called `movie_words_comparison`.
+
 3. Import the data from the `soft-attributes.csv` file in the `resources` folder.
+
 4. Create a query that collects all rows where `Home Alone (1990)` is in the `reference_title` column.
+
 5. Create a query that collects all rows where the rater is within the 10-15 range.
+
 6. Create a query that searches for the words `artsy` and `heartfelt` in the `soft_attribute` column.
 
 ### Additional Exploration
@@ -143,6 +156,7 @@ An exploration of CRUD operations (Create, Read, Update, Delete) on data provide
 
 ### Additional Exploration
 1. Delete all rows from `accidents_by_state` and re-import the data from `mys_accidents_by_state.csv`. If you import the data again without deleting the rows, you will have duplicated data.
+
 2. Without deleting any rows, calculate the sum of `road_crashes`, `road_deaths`, `serious_injury`, and `slight_injury` for a subsequent year, and add those values plus the year to the `road_accidents` table.
 ---
 
@@ -155,7 +169,9 @@ An exploration of the five primary types of joins that can be used with PostgreS
 * `FULL OUTER JOIN` places null values within the columns that do not match between the two tables, after an inner join is performed.
 
 1. Create a database called `commodities_db` with two tables, `names` and `commodity`. Then populate the tables with data from the `.csv` files provided in the `resources` directory.
+
 2. Perform an `INNER JOIN` on the two tables.
+
 3. Perform the same operation, using aliases.
 
 ---
@@ -195,3 +211,40 @@ When information could unintentionally be duplicated, data is often stored in se
     | 10 | B07514549034 | 3/29/11 | Tropical Kingbird | aluminum\butt-end (toll-free /web address) | Normal wild bird. | After Second Year | Male |
     | 11 | B08623850540 | 1/11/75 | Yellow-bellied Flycatcher | aluminum\butt end | Normal wild bird. | Second Year | Male |
     | 12 | B08623850863 | 2/12/75 | Least Flycatcher | aluminum\butt end | Normal wild bird. | After Hatching Year | Female |
+---
+
+## `08-rentals_db`
+
+### Procedure
+1. Create a database titled `rentals_db`.
+
+2. Create tables `actor`, `address`, `city`, `country`, `customer`, `customer_list`, `film`, `film_actor`, `inventory`, `payment`, `rental`, `staff`, `store`.
+
+3.
+4.
+5.
+6.
+
+---
+
+# Gregarious Aggregates
+
+In this activity, you will practice writing queries with aggregate functions, with grouping, and with using aliases.
+
+## Instructions
+
+* Use aggregate functions as you run queries to answer the following questions. You will have to search the internet for some of these functions. Try using aliases for more informative column headings.
+
+    * What is the average cost to rent a film in the stores?
+
+    * What is the average rental cost of films by rating? On average, what film rating is the cheapest to rent? What rating is the most expensive?
+
+    * How much would it cost to replace all films in the database?
+
+    * How much would it cost to replace all films in each ratings category?
+
+    * How long is the longest movie in the database? How short is the shortest movie?
+
+## Hint
+
+Consult the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html) for a summary of the available functions.
