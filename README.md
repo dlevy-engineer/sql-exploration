@@ -237,9 +237,9 @@ When information could unintentionally be duplicated, data is often stored in se
 10. Find the average cost to rent a film in the stores.
 
 11. Find the average rental cost of films by rating.
-    a. On average, what film rating is the cheapest to rent?
+    - On average, what film rating is the cheapest to rent?
         - G
-    b. What rating is the most expensive?
+    - What rating is the most expensive?
         - PG
 
 12. How much would it cost to replace all films in the database?
