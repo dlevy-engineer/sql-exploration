@@ -220,31 +220,32 @@ When information could unintentionally be duplicated, data is often stored in se
 
 2. Create tables `actor`, `address`, `city`, `country`, `customer`, `customer_list`, `film`, `film_actor`, `inventory`, `payment`, `rental`, `staff`, `store`.
 
-3.
-4.
-5.
-6.
+3. Select everything from the film table.
 
----
+4. Count the number of `film_id`s in the `film` table. Use aliasing.
 
-# Gregarious Aggregates
+5. Group by `rating` and aggregate the `film_id` count.
 
-In this activity, you will practice writing queries with aggregate functions, with grouping, and with using aliases.
+6. Find the average rental duration. Use aliasing.
 
-## Instructions
+7. Group by rental duration and find the average rental rate within each group.
 
-* Use aggregate functions as you run queries to answer the following questions. You will have to search the internet for some of these functions. Try using aliases for more informative column headings.
+8. Find minimum rate per rental duration group.
 
-    * What is the average cost to rent a film in the stores?
+9. Find maximum rate per rental duration group.
 
-    * What is the average rental cost of films by rating? On average, what film rating is the cheapest to rent? What rating is the most expensive?
+10. Find the average cost to rent a film in the stores.
 
-    * How much would it cost to replace all films in the database?
+11. Find the average rental cost of films by rating.
+    a. On average, what film rating is the cheapest to rent?
+        - G
+    b. What rating is the most expensive?
+        - PG
 
-    * How much would it cost to replace all films in each ratings category?
+12. How much would it cost to replace all films in the database?
 
-    * How long is the longest movie in the database? How short is the shortest movie?
+13. How much would it cost to replace all films in each ratings category?
 
-## Hint
+14. How long is the longest movie in the database? How short is the shortest movie?
 
-Consult the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html) for a summary of the available functions.
+_A summary of available functions can be found in the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)._
