@@ -278,7 +278,30 @@ When information could unintentionally be duplicated, data is often stored in se
 
 17. Determine the average rental duration for each rating rounded to two decimals. Order these in ascending order.
 
-18. Determine the top 10 average replacement costs for movies, ordered by their length.
+    | Rating | Avg Rental Duration |
+    |--------|---------------------|
+    | R | 4.77 |
+    | G | 4.84 |
+    | PG-13 | 5.05 |
+    | PG | 5.08 |
+    | NC-17 | 5.14 |
+
+18. Determine the top ten average replacement costs for movies, ordered by their length.
+
+    | Length | Avg Replacement Cost |
+    |--------|----------------------|
+    | 177 | 28 |
+    | 133 | 26 |
+    | 131 | 26 |
+    | 60 | 25 |
+    | 57 | 25 |
+    | 164 | 25 |
+    |46 | 24 |
+    |150 | 24 |
+    |56 | 24 |
+    | 71 | 24 |
+
+19. Get country counts from the `city` table.
 
 ## Additional Exploration
 
