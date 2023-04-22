@@ -260,8 +260,26 @@ When information could unintentionally be duplicated, data is often stored in se
         - NC-17 – $19128.56
         - PG – $17755.76
 
-14. How long is the longest movie in the database? How short is the shortest movie?
+14. Extreme movie lengths:
+    - How long is the longest movie in the database?
+        - 46 minutes
+    - How short is the shortest movie?
+        - 185 minutes
 
-15. 
+15. Select the average length of movies by rental rate. Round the results to use only two decimal places. Order by descending values. Limit results to 5.
+| Rental Rate | Film Length |
+| 2.99 | 117.19 |
+| 4.99 | 115.82 |
+| 0.99 | 112.91 |
+
+16. Determine the count of actor first names with the names ordered in descending order.
+
+17. Determine the average rental duration for each rating rounded to two decimals. Order these in ascending order.
+
+18. Determine the top 10 average replacement costs for movies, ordered by their length.
+
+## Additional Exploration
+
+1. Using the city and country tables, determine the count of countries in descending order.
 
 _A summary of available functions can be found in the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)._
