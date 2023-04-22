@@ -247,7 +247,21 @@ When information could unintentionally be duplicated, data is often stored in se
     - If counting entire inventory across both stores – $92,621.19
 
 13. How much would it cost to replace all films in each ratings category?
+    - If counting each film only once:
+        - PG-13 – $4549.77
+        - R – $3945.05
+        - G - $3582.22
+        - NC-17 – $4228.90
+        - PG – $678.06
+    - If counting entire inventory across both stories:
+        - PG-13 – $21052.82
+        - R – $18498.96
+        - G – $16185.09
+        - NC-17 – $19128.56
+        - PG – $17755.76
 
 14. How long is the longest movie in the database? How short is the shortest movie?
+
+15. 
 
 _A summary of available functions can be found in the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)._
