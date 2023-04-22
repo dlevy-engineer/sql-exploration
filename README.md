@@ -238,11 +238,13 @@ When information could unintentionally be duplicated, data is often stored in se
 
 11. Find the average rental cost of films by rating.
     - On average, what film rating is the cheapest to rent?
-        - G
+        - G – $2.8888764044943820
     - What rating is the most expensive?
-        - PG
+        - PG – $3.0518556701030928
 
 12. How much would it cost to replace all films in the database?
+    - If counting each film only once – $19984.00
+    - If counting entire inventory across both stores – $92,621.19
 
 13. How much would it cost to replace all films in each ratings category?
 
