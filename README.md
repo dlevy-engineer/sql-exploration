@@ -268,11 +268,11 @@ When information could unintentionally be duplicated, data is often stored in se
 
 15. Select the average length of movies by rental rate. Round the results to use only two decimal places. Order by descending values. Limit results to 5.
 
-|| Rental Rate | Film Length |
-|----|----|
-| 2.99 | 117.19 |
-| 4.99 | 115.82 |
-| 0.99 | 112.91 |
+    | Rental Rate | Film Length |
+    |----|----|
+    | 2.99 | 117.19 |
+    | 4.99 | 115.82 |
+    | 0.99 | 112.91 |
 
 16. Determine the count of actor first names with the names ordered in descending order.
 
