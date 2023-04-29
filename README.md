@@ -334,6 +334,12 @@ Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. 
   | ... | ... | ... |
   | 116 | WRONG BEHAVIOR | 7 |
 
+25. Find the number of customers who rented BLANKET BEVERLY
+    - 12
+
+26. Using subqueries, identify all actors who appear in the film ALTER VICTORY in the `pagila` database.
+
+27. Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
 
 ## Additional Exploration
 
