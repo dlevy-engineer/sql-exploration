@@ -307,8 +307,20 @@ Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. 
 
 19. Get country counts from the `city` table.
 
+20. Retrieve inventory information for the film 'EARLY HOME' first using a brute-force retrieval approach, and then using subqueries for a more elegant solution.
+    | inventory_id | film_id | store_id | last_update |
+    |--------------|---------|----------|-------------|
+    | 1206 | 268 | 2 | 2006-02-15 10:09:17 |
+    | 1207 | 268 | 2 | 2006-02-15 10:09:17 |
+
+21. List the names and ID numbers of cities that are in the following list: `Qalyub`, `Qinhuangdao`, `Qomsheh`, `Quilmes`.
+
+22. Display the districts in the above list of cities.
+
+
 ## Additional Exploration
 
 1. Using the city and country tables, determine the count of countries in descending order.
+2. Using subqueries, find the first and last names of customers who reside in cities that begin with the letter *Q*.
 
 _A summary of available functions can be found in the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)._
