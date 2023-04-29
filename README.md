@@ -216,6 +216,10 @@ When information could unintentionally be duplicated, data is often stored in se
 ## `08-rentals_db`
 
 ### Procedure
+Any insights not provided in the body below are provided as `.csv` output files in the `rental_db` directory. 
+
+Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. Items 20–
+
 1. Create a database titled `rentals_db`.
 
 2. Create tables `actor`, `address`, `city`, `country`, `customer`, `customer_list`, `film`, `film_actor`, `inventory`, `payment`, `rental`, `staff`, `store`.
