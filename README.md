@@ -317,6 +317,23 @@ Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. 
 
 22. Display the districts in the above list of cities.
 
+23. Create a view that monitors the total sales from each store, which is something a company executive would want to look up often.
+
+24. Write a query to get the number of copies of a film title that exist in the inventory. Use a subquery instead of a join. Create a view named `title_count` and query the newly created view to find all the titles that have 7 copies.
+
+  | | title<br>character varying (255) | Number of Copies<br>bigint |
+  |----|----|----|
+  | 1 | AFFAIR PREJUDICE | 7 |
+  | 2 | ALADDIN CALENDAR | 7 |
+  | 3 | ALAMO VIDEOTAPE | 7 |
+  | 4 | ALASKA PHANTOM | 7 |
+  | 5 | AMISTAD MIDSUMMER | 7 |
+  | 6 | ARACHNOPHOBIA ROLLERCOASTER | 7 |
+  | 7 | ARIZONA BANG | 7 |
+  | 8 | ARMAGEDDON LOST | 7 |
+  | ... | ... | ... |
+  | 116 | WRONG BEHAVIOR | 7 |
+
 
 ## Additional Exploration
 
