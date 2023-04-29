@@ -339,11 +339,19 @@ Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. 
 
 26. Using subqueries, identify all actors who appear in the film ALTER VICTORY in the `pagila` database.
 
+| first_name | last_name |
+|------------|-----------|
+| REESE | KILMER |
+| JADA | RYDER |
+| ANGELA | WITHERSPOON |
+| OPRAH | KILMER |
+
 27. Using subqueries, display the titles of films that the employee Jon Stephens rented to customers.
 
 ## Additional Exploration
 
 1. Using the city and country tables, determine the count of countries in descending order.
+
 2. Using subqueries, find the first and last names of customers who reside in cities that begin with the letter *Q*.
 
 _A summary of available functions can be found in the Postgres documentation on [aggregate functions](https://www.postgresql.org/docs/9.5/functions-aggregate.html)._
