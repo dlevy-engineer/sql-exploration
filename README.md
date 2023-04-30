@@ -358,20 +358,19 @@ Items 1–19 are explorations of the `ORDER BY` and `GROUP BY` functionalities. 
 
 ## Data Normalization
 
-### First Form Normalization
+Data normalization standards can be summarized as follows:
 
-    * Each field in a table row row should contain a single value
-    * Each row is unique
+- First Form Normalization
+    - Each field in a table row row should contain a single value
+    - Each row is unique
 
-### Second Form Normalization
+- Second Form Normalization
+    - Be in first normal form
+    - Single Column for Primary Key that identifies the table uniquely
 
-    * Be in first normal form
-    * Single Column for Primary Key that identifies the table uniquely
-
-### Third Form Normalization
-
-    * Be in second normal form
-    * Contain non-transitively dependent columns
+- Third Form Normalization
+    - Be in second normal form
+    - Contain non-transitively dependent columns
 
 
 
